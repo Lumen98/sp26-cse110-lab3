@@ -143,3 +143,67 @@ select {
   border: 1px solid var(--border-color);
   border-radius: 4px;
 }
+
+/* ---- Text styling ---- */
+
+h2 {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  text-align: left;
+}
+
+section p {
+  text-align: justify;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+summary {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+/* ---- Display ---- */
+
+/* hide the horizontal rules since we have card-style sections now */
+hr {
+  display: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+/* ---- Sizing ---- */
+
+video {
+  width: 100%;
+  max-width: 640px;
+  min-width: 200px;
+  height: auto;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  min-width: 150px;
+}
+
+/* ---- Positioning ---- */
+
+/* sticky nav bar */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* position the footer copyright relative */
+footer p {
+  position: relative;
+  top: 0;
+}
