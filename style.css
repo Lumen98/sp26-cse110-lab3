@@ -23,31 +23,58 @@ body {
   background-color: var(--light-bg);
 }
 
+/* header - using px (absolute) and em (relative) */
 header {
   background-color: var(--primary-color);
   color: white;
+  padding: 2em 1em;
+  text-align: center;
 }
 
 header h1 {
   color: white;
+  font-size: 2rem;
+  margin-bottom: 0.25em;
 }
 
+/* nav - using pt (absolute) */
 nav {
   background-color: var(--subtle-accent);
+  padding: 8pt 0;
 }
 
 nav a {
   color: var(--accent-color);
+  font-size: 0.95rem;
+}
+
+/* main content area - using % (relative) and px */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 6px;
 }
 
 hr {
   border: none;
   border-top: 1px solid var(--border-color);
+  margin: 0.2cm 0;
 }
 
+/* footer - using cm (absolute) */
 footer {
   background-color: var(--primary-color);
   color: whitesmoke;
+  padding: 0.5cm 1em;
+  text-align: center;
 }
 
 footer a {
