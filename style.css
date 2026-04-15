@@ -1,5 +1,15 @@
 /* Main stylesheet for Pomodoro Timer meeting minutes page */
 
+/* CSS variables */
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: rgb(41, 128, 185);
+  --light-bg: hsl(210, 36%, 96%);
+  --border-color: rgba(44, 62, 80, 0.2);
+  --highlight: color(display-p3 0.15 0.5 0.72);
+  --subtle-accent: color-mix(in srgb, var(--accent-color) 30%, white);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,4 +19,37 @@ body {
   padding: 0;
   font-family: sans-serif;
   line-height: 1.6;
+  color: var(--primary-color, #333);
+  background-color: var(--light-bg);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+header h1 {
+  color: white;
+}
+
+nav {
+  background-color: var(--subtle-accent);
+}
+
+nav a {
+  color: var(--accent-color);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+}
+
+footer a {
+  color: var(--highlight, dodgerblue);
 }
