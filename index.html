@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Meeting minutes for the Pomodoro Timer project brainstorming session" />
+    <title>Pomodoro Timer - Brainstorm Meeting Minutes</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header>
+      <h1>Pomodoro Timer First Brainstorm</h1>
+      <h2>Brainstorming Session</h2>
+      <h3>Date: April 7, 2026</h3>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#attendance">Attendance</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#unfinished">Unfinished Business</a></li>
+        <li><a href="#new">New Business</a></li>
+        <li><a href="#misc">Miscellaneous</a></li>
+        <li><a href="#diagrams">Diagrams</a></li>
+        <li><a href="#recordings">Recordings</a></li>
+        <li><a href="#feedback">Feedback Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ol>
+          <li>Alice Johnson (Team Lead)</li>
+          <li>Bob Smith (Developer)</li>
+          <li>Carol Lee (Designer)</li>
+          <li>David Chen (Developer)</li>
+          <li>Eve Martinez (QA)</li>
+        </ol>
+      </section>
+
+      <hr />
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Review project requirements</li>
+          <li>Discuss tech stack options</li>
+          <li>Brainstorm core features</li>
+          <li>Assign initial tasks</li>
+          <li>Set next meeting date</li>
+        </ol>
+      </section>
+
+      <hr />
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <ul>
+          <li><strong>Team name selection</strong> — still need to vote on final name</li>
+          <li><em>GitHub repo setup</em> — David will finish configuring branch protections</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="new">
+        <h2>New Business</h2>
+        <ul>
+          <li>
+            <b>Tech stack decision:</b> The team agreed to use <i>vanilla HTML, CSS, and JavaScript</i> for the initial prototype.
+          </li>
+          <li>
+            <b>Core features brainstorm:</b>
+            <ul>
+              <li>Configurable timer duration</li>
+              <li>Short and long break intervals</li>
+              <li>Task list integration</li>
+              <li>Audio notification when timer ends</li>
+              <li>Session counter</li>
+            </ul>
+          </li>
+          <li>
+            <b>Design direction:</b> Carol will create wireframes by next meeting.<br />
+            She mentioned wanting a <span>minimalist</span> look with a focus on usability.
+          </li>
+        </ul>
+        <p>
+          The team discussed the importance of keeping the scope manageable for the first sprint.
+          Alice emphasized that we should focus on getting a <strong>working timer</strong> before adding extra features.
+          Bob suggested referencing <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">the Pomodoro Technique Wikipedia page</a> for standard intervals.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="misc">
+        <h2>Miscellaneous</h2>
+        <details>
+          <summary>Questions and Concerns</summary>
+          <ul>
+            <li>Eve asked about testing strategy — will discuss next meeting</li>
+            <li>Bob raised concern about accessibility requirements</li>
+            <li>Carol wants clarification on color palette constraints</li>
+          </ul>
+        </details>
+        <div>
+          <p>
+            <em>Next meeting:</em> April 14, 2026 at 3:00 PM.<br />
+            Location: Zoom (link to be shared via Slack).
+          </p>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="diagrams">
+        <h2>Diagrams and Whiteboard Photos</h2>
+        <img src="whiteboard.svg" alt="Whiteboard diagram showing the Pomodoro Timer application architecture" />
+      </section>
+
+      <hr />
+
+      <section id="recordings">
+        <h2>Recordings</h2>
+        <h3>Audio Recording</h3>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Recording</h3>
+        <video controls width="600">
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+      </section>
+
+      <hr />
+
+      <section id="feedback">
+        <h2>Meeting Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Your Information</legend>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" placeholder="Enter your name" /><br /><br />
+
+            <label for="meeting-date">Meeting Date:</label><br />
+            <input type="date" id="meeting-date" name="meeting-date" /><br /><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Feedback</legend>
+
+            <label>How useful was this meeting?</label><br />
+            <input type="radio" id="very-useful" name="rating" value="very-useful" />
+            <label for="very-useful">Very Useful</label><br />
+            <input type="radio" id="somewhat-useful" name="rating" value="somewhat-useful" />
+            <label for="somewhat-useful">Somewhat Useful</label><br />
+            <input type="radio" id="not-useful" name="rating" value="not-useful" />
+            <label for="not-useful">Not Useful</label><br /><br />
+
+            <label>Which topics were relevant to you?</label><br />
+            <input type="checkbox" id="tech" name="topics" value="tech" />
+            <label for="tech">Tech Stack</label><br />
+            <input type="checkbox" id="features" name="topics" value="features" />
+            <label for="features">Features</label><br />
+            <input type="checkbox" id="design" name="topics" value="design" />
+            <label for="design">Design</label><br /><br />
+
+            <label for="suggestions">Additional comments:</label><br />
+            <textarea id="suggestions" name="suggestions" rows="4" cols="40" placeholder="Share your thoughts..."></textarea><br /><br />
+
+            <label for="follow-up">Preferred follow-up method:</label><br />
+            <input list="contact-methods" id="follow-up" name="follow-up" />
+            <datalist id="contact-methods">
+              <option value="Email"></option>
+              <option value="Slack"></option>
+              <option value="In Person"></option>
+              <option value="Phone"></option>
+            </datalist><br /><br />
+
+            <label for="priority">Priority for next meeting:</label><br />
+            <select id="priority" name="priority">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select><br /><br />
+
+            <button type="submit">Submit Feedback</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Pomodoro Timer Team. All rights reserved.</p>
+      <p><a href="mailto:team@example.com">Contact us</a></p>
+    </footer>
+  </body>
+</html>
