@@ -173,9 +173,21 @@ hr {
   display: none;
 }
 
+/* ---- Flexbox nav ---- */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 nav li {
-  display: inline-block;
-  margin-right: 0.5em;
+  margin-right: 0;
 }
 
 /* ---- Sizing ---- */
