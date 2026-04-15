@@ -1,5 +1,7 @@
-# Lab 2 - Starter
+# Lab3
 
-Repo URL: https://github.com/Lumen98/Lab2_Starter
 
-Website URL: https://lumen98.github.io/Lab2_Starter/
+Repo URL: https://github.com/Lumen98/sp26-cse110-lab3/
+
+Website URL: https://lumen98.github.io/sp26-cse110-lab3/
+
