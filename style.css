@@ -249,3 +249,21 @@ footer a:hover {
 footer a:active {
   color: var(--subtle-accent);
 }
+
+/* ---- Grid layout for features ---- */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75em;
+  list-style: none;
+  padding: 0;
+}
+
+.feature-grid li {
+  background-color: var(--light-bg);
+  padding: 0.75em;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
